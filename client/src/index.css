@@ -51,6 +51,10 @@ body {
 a.saved-movie {
   text-decoration: none;
   color: black
+}
+a.saved-movie.active {
+  text-decoration: none;
+  color: red
 
 }
 .saved-active {
