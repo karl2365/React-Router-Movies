@@ -15,7 +15,11 @@ body {
   position: relative;
   margin: 1rem auto;
 }
+.movie-link{
+  color: black;
+  text-decoration: none;
 
+}
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -42,6 +46,16 @@ body {
 
 .saved-movie {
   margin: 0 10px;
+}
+
+a.saved-movie {
+  text-decoration: none;
+  color: black
+}
+a.saved-movie.active {
+  text-decoration: none;
+  color: red
+
 }
 .saved-active {
   color: blue;
